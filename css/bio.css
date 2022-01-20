@@ -1,0 +1,29 @@
+div {   
+		background:#fff;        
+		padding: 10px;   
+		color:black;
+		font-size:20px;
+}
+.gambar{
+	height:250px;
+	width: 300px;
+} 
+.a{
+	text-align:center;
+	font-family:algerian;
+	color: lightgreen;
+	background-color:black;
+	font-size:50px;
+}
+.b{
+	height:250px;
+	width: 300px;
+	background:blue;
+	width:400px;
+}
+.c{
+	background-color:#FFE4E1;
+	color:black;
+	font-size:30px;
+	width:60px;
+}

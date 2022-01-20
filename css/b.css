@@ -1,0 +1,26 @@
+body{
+	background-color:#fff;
+}
+
+#a{
+	text-align: center;
+	}
+#g{
+	color:black;
+}
+#m{
+	text-align:center;
+	font-family:Monotype corsiva;
+	color: black;
+	background-color:pink;
+	font-size:20px;
+}
+div {   
+		background:#fff;        
+		padding: 10px;   
+		color:black;
+		font-size:20px;
+		} 
+#3{
+	text-align:left;
+}

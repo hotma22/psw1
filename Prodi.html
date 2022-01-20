@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home</title>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/myStyle.css" rel="stylesheet">
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script> 
+</head>
+<body>
+<div class="container">
+  <div>
+    <nav class="navbar navbar-inverse">
+         <div class="navbar-header">
+            <a href="index.html">
+			<img class="da" src="img/logo.png"></a>
+        </div>
+       <ul class="nav navbar-nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="SEJARAH.html">Sejarah</a></li>
+           <li><a href="Prodi.html">Prodi</a></li>
+          <li><a href="contact.html">Contact</a></li>
+       </ul>
+       <ul class="nav navbar-nav navbar-right">
+          <li><a href="about us.html">&nbsp;About</a></li>      
+        </ul>
+      </div>
+    </nav>
+  </div>
+<div class="container">
+  <div class="container-fluid col-md-8">
+    <h2>Daftar Prodi</h2>
+  <hr>
+  <div class="row">
+      <div class="col-md-4">
+        <div class="thumbnail">
+        <a href="D3 TI.html">
+        <img src="img/d3TI1.png">
+        <div class="caption">
+         <h4 style="color:#3399ff;">D3 TI</h4>
+        </div>
+        </a>
+        </div>
+      </div>
+
+       <div class="col-md-4">
+        <div class="thumbnail">
+        <a href="D3 TK.html">
+        <img src="img/Logod3tk.jpg">
+        <div class="caption">
+         <h4 style="color:#3399ff;">D3 TK</h4>
+        </div>
+        </a>
+        </div>
+      </div>
+
+       <div class="col-md-4">
+        <div class="thumbnail">
+         <a href="D4 TRPL.html">
+        <img src="img/d4.png">
+        <div class="caption">
+         <h4 style="color:#3399ff;">D4 TRPL</h4>
+        </div>
+        </a>
+        </div>
+      </div>
+
+        <div class="col-md-4">
+          <div class="thumbnail">
+          <a href="S1 IF.html">
+           <img src="img/Capture.png">
+            <div class="caption">
+              <h4 style="color:#3399ff;">S1 IF</h4>
+            </div>
+            </a>
+          </div>
+          
+        </div>
+
+        <div class="col-md-4">
+          <div class="thumbnail">
+            <a href="S1 TE.html">
+           <img src="img/hme.png">
+            <div class="caption">
+              <h4 style="color:#3399ff;">S1 TE</h4>
+            </div>
+            </a>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="thumbnail">
+            <a href="S1 SI.html">
+             <img src="img/k.png">
+              <div class="caption">
+               <h4 style="color:#3399ff;">S1 SI</h4>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+         <div class="thumbnail">
+         <a href="S1 MR.html">
+           <img src="img/himamera.jpg">
+            <div class="caption">
+              <h4 style="color:#3399ff;">S1 MR</h4>
+              </div>
+          </a>
+          </div>
+        </div>
+
+      <div class="col-md-4">
+         <div class="thumbnail">
+         <a href="BP.html">
+           <img src="img/bp.png">
+            <div class="caption">
+              <h4 style="color:#3399ff;">S1 BP</h4>
+            </div>
+          </a>
+          </div>
+        </div>
+    </div>
+  </div>
+</div>
+<div class="container-fluid">
+<nav class="nav navbar-inverse">
+<h5>Copyright&copy; kelompok 8</h5>
+</nav>
+</div>
+<a href="#" id="back-to-top" title="Back to top"><i class="glyphicon glyphicon-chevron-up"></i></a>
+</div>
+
+<script>
+  if ($('#back-to-top').length) {
+    var scrollTrigger = 100, // px
+        backToTop = function () {
+            var scrollTop = $(window).scrollTop();
+            if (scrollTop > scrollTrigger) {
+                $('#back-to-top').addClass('show');
+            } else {
+                $('#back-to-top').removeClass('show');
+            }
+        };
+    backToTop();
+    $(window).on('scroll', function () {
+        backToTop();
+    });
+    $('#back-to-top').on('click', function (e) {
+        e.preventDefault();
+        $('html,body').animate({
+            scrollTop: 0
+        }, 700);
+    });
+}</script>
+</body>
+</html>
